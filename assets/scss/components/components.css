@@ -33,7 +33,7 @@ header {
 footer img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .section1 .section-inner {
@@ -91,7 +91,7 @@ footer img {
   left: 50%;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .section1 .bx-wrapper {
@@ -151,7 +151,7 @@ footer img {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-image: url(../../../assets/images/icon-link.jpg);
+  background-image: url(https://revehit.github.io/oneshot/assets/images/icon-link.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -171,7 +171,7 @@ footer img {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../../../assets/images/icon-arrow-step.jpg);
+  background-image: url(https://revehit.github.io/oneshot/assets/images/icon-arrow-step.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -190,7 +190,7 @@ footer img {
 .section3 .container {
   height: 700px;
   padding: 100px 0;
-  background-image: url(../../../assets/images/img-sec3.jpg);
+  background-image: url(https://revehit.github.io/oneshot/assets/images/img-sec3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -270,7 +270,7 @@ footer img {
   height: 239px;
   border-radius: 20px;
   overflow: hidden;
-  background-image: url(../../../assets/images/img-sec4-3.png);
+  background-image: url(https://revehit.github.io/oneshot/assets/images/img-sec4-3.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -296,7 +296,7 @@ footer img {
 
 .section5 {
   padding: 100px 0;
-  background-image: url(../../../assets/images/img-sec5.png);
+  background-image: url(https://revehit.github.io/oneshot/assets/images/img-sec5.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -350,7 +350,7 @@ footer img {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url(../../../assets/images/icon-play.png);
+  background-image: url(https://revehit.github.io/oneshot/assets/images/icon-play.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -369,4 +369,4 @@ footer img {
 }
 .section6 .video-item + .video-item {
   margin-top: 20px;
-}/*# sourceMappingURL=components.css.map */
+} /*# sourceMappingURL=components.css.map */
