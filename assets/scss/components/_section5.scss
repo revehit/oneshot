@@ -1,0 +1,28 @@
+.section5 {
+  padding: 100px 0;
+  background-image: url(../../../assets/images/img-sec5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  h3 {
+    font-size: 45px;
+    font-family: "ONE-Mobile";
+    text-align: center;
+    color: var(--color-white);
+  }
+  .link-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+  }
+  a {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,79 @@
+.section2 {
+  margin: 100px 0;
+  h3 {
+    font-size: 45px;
+    font-family: "ONE-Mobile";
+    text-align: center;
+    & + p {
+      color: #666;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .btn-wrap {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .btn-link {
+      display: inline-flex;
+      align-items: center;
+      height: 50px;
+      border: 1px solid #c8c8c8;
+      border-radius: 25px;
+      padding: 0 25px;
+      span {
+        width: 100%;
+        font-size: 18px;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        &::after {
+          content: "";
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          background-image: url(../../../assets/images/icon-link.jpg);
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+  .step-wrap {
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    & > div {
+      position: relative;
+      text-align: center;
+      &::after {
+        content: "";
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-image: url(../../../assets/images/icon-arrow-step.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 30px;
+        right: -70px;
+      }
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+    }
+    p {
+      font-weight: bold;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}

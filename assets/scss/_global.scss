@@ -1,0 +1,45 @@
+@import "./components/components.scss";
+
+body {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* common style */
+.relative {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  &.align-center {
+    align-items: center;
+  }
+  &.align-start {
+    align-items: flex-start;
+  }
+  &.align-ent {
+    align-items: flex-end;
+  }
+  &.justify-center {
+    justify-content: center;
+  }
+  &.justify-start {
+    justify-content: start;
+  }
+  &.justify-space-between {
+    justify-content: space-between;
+  }
+}
+
+/* text */
+.text-bold {
+  font-weight: bold;
+}
+
+/* color */
+.point {
+  color: var(--color-point);
+}
