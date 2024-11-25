@@ -46,19 +46,35 @@ body {
 
 /* section animate */
 .section {
+  .slide-up {
+    .slide-item1,
+    .slide-item2,
+    .slide-item3,
+    .slide-item4 {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    .slide-item1 {
+      transition: 0.4s 0.2s;
+    }
+    .slide-item2 {
+      transition: 0.6s 0.2s;
+    }
+    .slide-item3 {
+      transition: 0.8s 0.2s;
+    }
+    .slide-item4 {
+      transition: 1s 0.2s;
+    }
+  }
   &.on {
     .slide-up {
-      .slide-item1 {
-        animation: slideup 1s;
-      }
-      .slide-item2 {
-        animation: slideup 1.2s;
-      }
-      .slide-item3 {
-        animation: slideup 1.4s;
-      }
+      .slide-item1,
+      .slide-item2,
+      .slide-item3,
       .slide-item4 {
-        animation: slideup 1.6s;
+        opacity: 1;
+        transform: translateY(0%);
       }
     }
   }

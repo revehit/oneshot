@@ -759,17 +759,31 @@ body {
 }
 
 /* section animate */
-.section.on .slide-up .slide-item1 {
-  animation: slideup 1s;
+.section .slide-up .slide-item1,
+.section .slide-up .slide-item2,
+.section .slide-up .slide-item3,
+.section .slide-up .slide-item4 {
+  opacity: 0;
+  transform: translateY(100%);
 }
-.section.on .slide-up .slide-item2 {
-  animation: slideup 1.2s;
+.section .slide-up .slide-item1 {
+  transition: 0.4s 0.2s;
 }
-.section.on .slide-up .slide-item3 {
-  animation: slideup 1.4s;
+.section .slide-up .slide-item2 {
+  transition: 0.6s 0.2s;
 }
+.section .slide-up .slide-item3 {
+  transition: 0.8s 0.2s;
+}
+.section .slide-up .slide-item4 {
+  transition: 1s 0.2s;
+}
+.section.on .slide-up .slide-item1,
+.section.on .slide-up .slide-item2,
+.section.on .slide-up .slide-item3,
 .section.on .slide-up .slide-item4 {
-  animation: slideup 1.6s;
+  opacity: 1;
+  transform: translateY(0%);
 }
 
 /* keyframe */
