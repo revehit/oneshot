@@ -90,17 +90,14 @@ html ::-webkit-scrollbar-button {
 
 body {
   color: var(--color-darken);
-  font-family: "Pretendard Variable", Pretendard, -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
-    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
 }
 
 caption,
@@ -108,7 +105,7 @@ legend {
   border: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
+          clip-path: inset(50%);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -205,10 +202,7 @@ select::-ms-expand {
   display: none;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   -webkit-text-fill-color: #000 !important;
   box-shadow: 0 0 0px 1000px #fff inset !important;
 }
@@ -237,80 +231,70 @@ svg {
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Black.woff") format("woff"),
-    url("fonts/Pretendard-Black.woff2") format("woff2");
+  src: url("fonts/Pretendard-Black.woff") format("woff"), url("fonts/Pretendard-Black.woff2") format("woff2");
   font-weight: 900;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Bold.woff") format("woff"),
-    url("fonts/Pretendard-Bold.woff2") format("woff2");
+  src: url("fonts/Pretendard-Bold.woff") format("woff"), url("fonts/Pretendard-Bold.woff2") format("woff2");
   font-weight: 800;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-ExtraBold.woff") format("woff"),
-    url("fonts/Pretendard-ExtraBold.woff2") format("woff2");
+  src: url("fonts/Pretendard-ExtraBold.woff") format("woff"), url("fonts/Pretendard-ExtraBold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-ExtraLight.woff") format("woff"),
-    url("fonts/Pretendard-ExtraLight.woff2") format("woff2");
+  src: url("fonts/Pretendard-ExtraLight.woff") format("woff"), url("fonts/Pretendard-ExtraLight.woff2") format("woff2");
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Light.woff") format("woff"),
-    url("fonts/Pretendard-Light.woff2") format("woff2");
+  src: url("fonts/Pretendard-Light.woff") format("woff"), url("fonts/Pretendard-Light.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Medium.woff") format("woff"),
-    url("fonts/Pretendard-Medium.woff2") format("woff2");
+  src: url("fonts/Pretendard-Medium.woff") format("woff"), url("fonts/Pretendard-Medium.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Regular.woff") format("woff"),
-    url("fonts/Pretendard-Regular.woff2") format("woff2");
+  src: url("fonts/Pretendard-Regular.woff") format("woff"), url("fonts/Pretendard-Regular.woff2") format("woff2");
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-SemiBold.woff") format("woff"),
-    url("fonts/Pretendard-SemiBold.woff2") format("woff2");
+  src: url("fonts/Pretendard-SemiBold.woff") format("woff"), url("fonts/Pretendard-SemiBold.woff2") format("woff2");
   font-weight: 200;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Thin.woff") format("woff"),
-    url("fonts/Pretendard-Thin.woff2") format("woff2");
+  src: url("fonts/Pretendard-Thin.woff") format("woff"), url("fonts/Pretendard-Thin.woff2") format("woff2");
   font-weight: 100;
   font-display: swap;
 }
 @font-face {
   font-family: "ONE-Mobile";
   font-style: normal;
-  src: url("fonts/ONE-Mobile-Title.woff") format("woff"),
-    url("fonts/ONE-Mobile-Title.woff2") format("woff2");
+  src: url("fonts/ONE-Mobile-Title.woff") format("woff"), url("fonts/ONE-Mobile-Title.woff2") format("woff2");
   font-weight: 100;
   font-display: swap;
 }
@@ -329,6 +313,25 @@ header {
   position: fixed;
   top: 0;
   z-index: 100;
+  transition: all 0.2s;
+}
+header.active {
+  background-color: var(--color-white);
+  border-bottom: 1px solid #c8c8c8;
+}
+header.active .header-inner h1 img {
+  height: 44px;
+  content: url(../../../assets/images/img-toplogo-bk.png);
+}
+header.active .header-inner span {
+  color: #111;
+}
+header.active .header-inner nav li a {
+  color: #111;
+}
+header h1 img {
+  height: 44px;
+  content: url(../../../assets/images/img-toplogo.png);
 }
 
 .header-inner {
@@ -358,7 +361,7 @@ header {
 footer img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .section1 .section-inner {
@@ -404,19 +407,19 @@ footer img {
 .section1 .img-slider .slider-item h2 {
   font-size: 55px;
   line-height: 1.3;
-  font-family: "ONE-Mobile";
   color: var(--color-white);
   text-align: center;
   margin-top: -300px;
 }
 .section1 .img-slider .slider-item img {
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   z-index: -1;
 }
 .section1 .bx-wrapper {
@@ -439,7 +442,6 @@ footer img {
 }
 .section2 h3 {
   font-size: 45px;
-  font-family: "ONE-Mobile";
   text-align: center;
 }
 .section2 h3 + p {
@@ -515,16 +517,15 @@ footer img {
 .section3 .container {
   height: 700px;
   padding: 100px 0;
-  background-image: url(https://revehit.github.io/oneshot/assets/images/img-sec3.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
 .section3 h3 {
   font-size: 45px;
   color: var(--color-white);
-  font-family: "ONE-Mobile";
   text-align: center;
   margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
 }
 .section3 h3 span {
   font-size: 24px;
@@ -534,6 +535,8 @@ footer img {
   color: var(--color-white);
   text-align: center;
   line-height: 1.3;
+  position: relative;
+  z-index: 1;
 }
 .section3 .quick-box {
   display: flex;
@@ -541,6 +544,8 @@ footer img {
   justify-content: center;
   gap: 200px;
   margin-top: 100px;
+  position: relative;
+  z-index: 1;
 }
 .section3 .quick-box .quick-item {
   text-align: center;
@@ -551,13 +556,18 @@ footer img {
   color: var(--color-white);
   margin-top: 30px;
 }
+.section3 .section-bg {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
 
 .section4 {
   padding: 100px 0;
 }
 .section4 h3 {
   font-size: 45px;
-  font-family: "ONE-Mobile";
   text-align: center;
 }
 .section4 .tab {
@@ -621,15 +631,14 @@ footer img {
 
 .section5 {
   padding: 100px 0;
-  background-image: url(https://revehit.github.io/oneshot/assets/images/img-sec5.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
 .section5 h3 {
   font-size: 45px;
-  font-family: "ONE-Mobile";
   text-align: center;
   color: var(--color-white);
+  position: relative;
+  z-index: 1;
 }
 .section5 .link-wrap {
   display: flex;
@@ -637,6 +646,8 @@ footer img {
   justify-content: center;
   gap: 100px;
   margin-top: 100px;
+  position: relative;
+  z-index: 1;
 }
 .section5 a {
   width: 30%;
@@ -647,13 +658,19 @@ footer img {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
+.section5 .section-bg {
+  height: 474px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
 
 .section6 {
   padding: 100px 0;
 }
 .section6 h3 {
   font-size: 45px;
-  font-family: "ONE-Mobile";
   text-align: center;
 }
 .section6 .video-wrap {
@@ -739,4 +756,30 @@ body {
 /* color */
 .point {
   color: var(--color-point);
-} /*# sourceMappingURL=index.css.map */
+}
+
+/* section animate */
+.section.on .slide-up .slide-item1 {
+  animation: slideup 1s;
+}
+.section.on .slide-up .slide-item2 {
+  animation: slideup 1.2s;
+}
+.section.on .slide-up .slide-item3 {
+  animation: slideup 1.4s;
+}
+.section.on .slide-up .slide-item4 {
+  animation: slideup 1.6s;
+}
+
+/* keyframe */
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}/*# sourceMappingURL=index.css.map */

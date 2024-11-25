@@ -1,19 +1,19 @@
 <div class="container">
   <h3>관련기관</h3>
-  <div class="link-wrap">
-    <a href="">
+  <div class="link-wrap slide-up">
+    <a href="javascript:void(0);" class="slide-item1">
       <img
         src="https://revehit.github.io/oneshot/assets/images/img-sec5-1.png"
         alt=""
       />
     </a>
-    <a href="">
+    <a href="javascript:void(0);" class="slide-item2">
       <img
         src="https://revehit.github.io/oneshot/assets/images/img-sec5-2.png"
         alt=""
       />
     </a>
-    <a href="">
+    <a href="javascript:void(0);" class="slide-item3">
       <img
         src="https://revehit.github.io/oneshot/assets/images/img-sec5-3.png"
         alt=""
@@ -21,3 +21,29 @@
     </a>
   </div>
 </div>
+<div class="section-bg">
+  <img
+    src="https://revehit.github.io/oneshot/assets/images/img-sec5.png"
+    alt=""
+  />
+</div>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+  function sectionBgAni2() {
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".section5",
+        start: "top center",
+        end: "bottom",
+        scrub: true,
+      },
+    });
+
+    tl.to(".section5 .section-bg img", {
+      scale: 1.5,
+    });
+  }
+  // 함수 호출
+  sectionBgAni2();
+</script>

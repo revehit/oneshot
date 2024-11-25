@@ -43,3 +43,35 @@ body {
 .point {
   color: var(--color-point);
 }
+
+/* section animate */
+.section {
+  &.on {
+    .slide-up {
+      .slide-item1 {
+        animation: slideup 1s;
+      }
+      .slide-item2 {
+        animation: slideup 1.2s;
+      }
+      .slide-item3 {
+        animation: slideup 1.4s;
+      }
+      .slide-item4 {
+        animation: slideup 1.6s;
+      }
+    }
+  }
+}
+
+/* keyframe */
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

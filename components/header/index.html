@@ -22,3 +22,14 @@
     </nav>
   </div>
 </div>
+
+<!-- header addclass -->
+<script type="text/javascript">
+  $(window).on("scroll", function () {
+    if ($(window).scrollTop()) {
+      $("#header").addClass("active");
+    } else {
+      $("#header").removeClass("active");
+    }
+  });
+</script>
