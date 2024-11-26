@@ -90,17 +90,14 @@ html ::-webkit-scrollbar-button {
 
 body {
   color: var(--color-darken);
-  font-family: "Pretendard Variable", Pretendard, -apple-system,
-    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
-    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
 }
 
 caption,
@@ -108,7 +105,7 @@ legend {
   border: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
+          clip-path: inset(50%);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -205,10 +202,7 @@ select::-ms-expand {
   display: none;
 }
 
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-input:-webkit-autofill:active {
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
   -webkit-text-fill-color: #000 !important;
   box-shadow: 0 0 0px 1000px #fff inset !important;
 }
@@ -237,80 +231,70 @@ svg {
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Black.woff") format("woff"),
-    url("fonts/Pretendard-Black.woff2") format("woff2");
+  src: url("fonts/Pretendard-Black.woff") format("woff"), url("fonts/Pretendard-Black.woff2") format("woff2");
   font-weight: 900;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Bold.woff") format("woff"),
-    url("fonts/Pretendard-Bold.woff2") format("woff2");
+  src: url("fonts/Pretendard-Bold.woff") format("woff"), url("fonts/Pretendard-Bold.woff2") format("woff2");
   font-weight: 800;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-ExtraBold.woff") format("woff"),
-    url("fonts/Pretendard-ExtraBold.woff2") format("woff2");
+  src: url("fonts/Pretendard-ExtraBold.woff") format("woff"), url("fonts/Pretendard-ExtraBold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-ExtraLight.woff") format("woff"),
-    url("fonts/Pretendard-ExtraLight.woff2") format("woff2");
+  src: url("fonts/Pretendard-ExtraLight.woff") format("woff"), url("fonts/Pretendard-ExtraLight.woff2") format("woff2");
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Light.woff") format("woff"),
-    url("fonts/Pretendard-Light.woff2") format("woff2");
+  src: url("fonts/Pretendard-Light.woff") format("woff"), url("fonts/Pretendard-Light.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Medium.woff") format("woff"),
-    url("fonts/Pretendard-Medium.woff2") format("woff2");
+  src: url("fonts/Pretendard-Medium.woff") format("woff"), url("fonts/Pretendard-Medium.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Regular.woff") format("woff"),
-    url("fonts/Pretendard-Regular.woff2") format("woff2");
+  src: url("fonts/Pretendard-Regular.woff") format("woff"), url("fonts/Pretendard-Regular.woff2") format("woff2");
   font-weight: 300;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-SemiBold.woff") format("woff"),
-    url("fonts/Pretendard-SemiBold.woff2") format("woff2");
+  src: url("fonts/Pretendard-SemiBold.woff") format("woff"), url("fonts/Pretendard-SemiBold.woff2") format("woff2");
   font-weight: 200;
   font-display: swap;
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
-  src: url("fonts/Pretendard-Thin.woff") format("woff"),
-    url("fonts/Pretendard-Thin.woff2") format("woff2");
+  src: url("fonts/Pretendard-Thin.woff") format("woff"), url("fonts/Pretendard-Thin.woff2") format("woff2");
   font-weight: 100;
   font-display: swap;
 }
 @font-face {
   font-family: "ONE-Mobile";
   font-style: normal;
-  src: url("fonts/ONE-Mobile-Title.woff") format("woff"),
-    url("fonts/ONE-Mobile-Title.woff2") format("woff2");
+  src: url("fonts/ONE-Mobile-Title.woff") format("woff"), url("fonts/ONE-Mobile-Title.woff2") format("woff2");
   font-weight: 100;
   font-display: swap;
 }
@@ -336,8 +320,9 @@ header.active {
   border-bottom: 1px solid #c8c8c8;
 }
 header.active .header-inner h1 img {
+  width: 233px;
   height: 44px;
-  content: url(../../../assets/images/img-toplogo-bk.png);
+  content: url(https://revehit.github.io/oneshot/assets/images/img-toplogo-bk.png);
 }
 header.active .header-inner span {
   color: #111;
@@ -346,8 +331,9 @@ header.active .header-inner nav li a {
   color: #111;
 }
 header h1 img {
+  width: 233px;
   height: 44px;
-  content: url(../../../assets/images/img-toplogo.png);
+  content: url(https://revehit.github.io/oneshot/assets/images/img-toplogo.png);
 }
 
 .header-inner {
@@ -377,7 +363,7 @@ header h1 img {
 footer img {
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .section1 .section-inner {
@@ -435,7 +421,7 @@ footer img {
   left: 50%;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   z-index: -1;
 }
 .section1 .bx-wrapper {
@@ -812,4 +798,4 @@ body {
     opacity: 1;
     transform: translateY(0px);
   }
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
