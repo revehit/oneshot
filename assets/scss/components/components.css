@@ -52,7 +52,7 @@ header h1 img {
 footer img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .section1 .section-inner {
@@ -110,7 +110,7 @@ footer img {
   left: 50%;
   transform: translate(-50%, -50%);
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -1;
 }
 .section1 .bx-wrapper {
@@ -402,4 +402,4 @@ footer img {
 }
 .section6 .video-item + .video-item {
   margin-top: 20px;
-}/*# sourceMappingURL=components.css.map */
+} /*# sourceMappingURL=components.css.map */
